@@ -1,0 +1,8 @@
+{
+  "name": "d3app",
+  "private": true,
+  "dependencies": {
+    "d3": "~3.5.3",
+    "topojson": "~1.6.18"
+  }
+}

@@ -1,0 +1,80 @@
+.counties {
+  fill: none;
+}
+
+
+
+body {
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  tab-size: 2;
+}
+
+#svg {
+/*  width: 960;*/ 
+  margin: 0 auto;
+}
+
+.key path {
+  display: none;
+}
+
+.key line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+.states {
+  /*fill: none;
+  stroke: #000;*/
+ /* stroke-linejoin: round;*/
+
+  /*stroke: #999;*/
+  /*stroke-dasharray: 2,2;*/
+  stroke-linejoin: round;
+}
+
+
+.subunit { 
+  /*fill: #ddc; */
+  cursor: pointer; 
+}
+
+
+.black { fill: #000000;}
+
+.title {
+  font-size: 25px;
+  font-weight: 300;
+
+}
+
+.tick text {
+  font-size: 10px;
+}
+
+.box {
+  display: flex;
+}
+
+.subunit-boundary {
+  fill: none;
+  stroke: #fff;
+  /*stroke-dasharray: 2,2;
+  stroke-linejoin: round;*/
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    display: inline;
+    padding: 6px;
+    font: 13px sans-serif;
+    background-color: #000;
+    border: 0px;
+    border-radius: 2px;
+    pointer-events: none;
+    color: #fff;
+}
