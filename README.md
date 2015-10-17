@@ -3,7 +3,10 @@
 ## Prerequisites
 
 You must have node.js and its package manager (npm) installed. You can get them from http://nodejs.org/.
-Bower is also needed http://bower.io/
+Bower and Grunt are also needed.
+```
+npm install -g bower grunt-cli
+```
 
 ## Setup
 
