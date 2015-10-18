@@ -9,6 +9,7 @@ npm install -g bower grunt-cli
 ```
 
 ## Setup
+Clone or download the project.
 
 ```
 npm install && bower install
